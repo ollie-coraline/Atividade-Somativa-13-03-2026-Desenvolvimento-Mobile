@@ -3,7 +3,7 @@ import { View, Text, ScrollView, Switch, ActivityIndicator, StyleSheet, SafeArea
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const backgroundColor = isDarkMode ? '#1e1e1e' : '#f5f5f5';
+  const backgroundColor = isDarkMode ? '#500f0f' : '#f5f5f5';
   const textColor = isDarkMode ? '#ffffff' : '#000000';
   const cardColor = isDarkMode ? '#333333' : '#ffffff';
 
